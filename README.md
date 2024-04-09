@@ -2,7 +2,7 @@
 
 This is a small test personal project
 
-<Not made to be used>
+**Not made to be used**
 
 Auth is *VERY* dumy no crypto no nothing,  
 
@@ -40,4 +40,13 @@ This endpoint requiers the `token` and  `API-KEY` headers to work, after each us
 When it reaches 0 it will not work anymore
 
 ### Disclaimer
-This is not a piece of software to be used, this is just me messing around and trying to reproduce something saw only, this *NEED*
+This is not a piece of software to be used it was put togheter in a couple of hours after work, this is just me messing around and trying to reproduce something saw only, this ***NEEDS*** a lot of work to be used in production 
+Authentication it cannot be called like that, the api keys service need a lot more functionality like:
+ * Resupling the key with new usses
+ * Revalidation it 
+ * Roles with different access levels 
+ * Etc. 
+
+ENV Variables:
+ * MONGO_DB_URL
+ * PORT
